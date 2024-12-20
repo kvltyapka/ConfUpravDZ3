@@ -1,0 +1,12 @@
+name: "Web Server Config"
+version: 2.1
+features:
+  - logging
+  - caching
+  - compression
+settings:
+  host: "localhost"
+  port: 8080
+  ssl_enabled: true
+max_connections: 100
+expression: "|max_connections|"

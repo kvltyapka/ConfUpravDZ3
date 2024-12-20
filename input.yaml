@@ -1,0 +1,10 @@
+name: "Test Config"
+version: 1.0
+features:
+  - logging
+  - debugging
+settings:
+  debug: true
+  timeout: 30
+test: 5
+expression: "?[test + 1]"
